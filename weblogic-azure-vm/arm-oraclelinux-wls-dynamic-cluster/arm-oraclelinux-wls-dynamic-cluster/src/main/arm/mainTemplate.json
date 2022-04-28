@@ -492,6 +492,7 @@
 				"owls-141100-jdk8-rhel76;Oracle:weblogic-141100-jdk8-rhel76:owls-141100-jdk8-rhel76;latest",
 				"owls-141100-jdk11-rhel76;Oracle:weblogic-141100-jdk11-rhel76:owls-141100-jdk11-rhel76;latest",
 				"test-141100-jdk11-ol76;Oracle:wls-base-image-test1-preview:test-141100-jdk11-ol76;latest",
+				"test-141100-jdk8-ol76;Oracle:wls-base-image-test1-preview:test-141100-jdk8-ol76;latest",
             	"test-122140-jdk8-ol76;Oracle:wls-base-image-test1-preview:test-122140-jdk8-ol76;latest",
             	"test-122130-jdk8-ol74;Oracle:wls-base-image-test1-preview:test-122130-jdk8-ol74;latest",
             	"test-122130-jdk8-ol73;Oracle:wls-base-image-test1-preview:test-122130-jdk8-ol73;latest"
