@@ -236,7 +236,7 @@
         "const_addressPrefix": "10.0.0.0/16",
         "const_appGatewaySubnetPrefix": "10.0.1.0/24",
         "const_hyphen": "-",
-        "const_imageOffer": "[concat('weblogic',variables('const_hyphen'), split(variables('name_linuxImageOfferSKU'),variables('const_hyphen'))[1],variables('const_hyphen'),split(variables('name_linuxImageOfferSKU'),variables('const_hyphen'))[2],variables('const_hyphen'),split(variables('name_linuxImageOfferSKU'),variables('const_hyphen'))[3],if(parameters('usePreviewImage'),'-preview',''))]",
+        "const_imageOffer": "[if(contains(variables('name_linuxImageOfferSKU'), 'test'), 'wls-base-image-test1-preview',concat('weblogic',variables('const_hyphen'),split(variables('name_linuxImageOfferSKU'),variables('const_hyphen'))[1],variables('const_hyphen'),split(variables('name_linuxImageOfferSKU'),variables('const_hyphen'))[2],variables('const_hyphen'),split(variables('name_linuxImageOfferSKU'),variables('const_hyphen'))[3],if(parameters('usePreviewImage'),'-preview','')))]",
         "const_imagePublisher": "oracle",
         "const_linuxConfiguration": {
             "disablePasswordAuthentication": true,
